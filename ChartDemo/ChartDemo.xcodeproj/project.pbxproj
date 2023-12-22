@@ -19,6 +19,10 @@
 		5C6F2CC02B356AC800FE3488 /* YearLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CBF2B356AC800FE3488 /* YearLineChartView.swift */; };
 		5C6F2CC22B356AE400FE3488 /* StyleBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CC12B356AE400FE3488 /* StyleBarChartView.swift */; };
 		5C6F2CC52B356B8400FE3488 /* SalesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CC42B356B8400FE3488 /* SalesModel.swift */; };
+		5C6F2CCA2B356C3D00FE3488 /* ChartDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CC92B356C3D00FE3488 /* ChartDemoView.swift */; };
+		5C6F2CCC2B356C7300FE3488 /* WheatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CCB2B356C7300FE3488 /* WheatherModel.swift */; };
+		5C6F2CD12B3586D800FE3488 /* WheatherChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CD02B3586D800FE3488 /* WheatherChartView.swift */; };
+		5C7C31BE2B3590670012AC8C /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 5C7C31BD2B358E800012AC8C /* Secrets.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,11 @@
 		5C6F2CBF2B356AC800FE3488 /* YearLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearLineChartView.swift; sourceTree = "<group>"; };
 		5C6F2CC12B356AE400FE3488 /* StyleBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleBarChartView.swift; sourceTree = "<group>"; };
 		5C6F2CC42B356B8400FE3488 /* SalesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesModel.swift; sourceTree = "<group>"; };
+		5C6F2CC92B356C3D00FE3488 /* ChartDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDemoView.swift; sourceTree = "<group>"; };
+		5C6F2CCB2B356C7300FE3488 /* WheatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherModel.swift; sourceTree = "<group>"; };
+		5C6F2CCD2B3577BB00FE3488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5C6F2CD02B3586D800FE3488 /* WheatherChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherChartView.swift; sourceTree = "<group>"; };
+		5C7C31BD2B358E800012AC8C /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +77,16 @@
 		5C6F2CA32B35529E00FE3488 /* ChartDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5C6F2CCD2B3577BB00FE3488 /* Info.plist */,
 				5C6F2CA42B35529E00FE3488 /* ChartDemoApp.swift */,
 				5C6F2CA62B35529E00FE3488 /* ContentView.swift */,
+				5C6F2CC82B356C1B00FE3488 /* PracticeView */,
 				5C6F2CC32B356B1900FE3488 /* TutorialView */,
 				5C6F2CB62B35659F00FE3488 /* View */,
 				5C6F2CB32B355B9800FE3488 /* Model */,
 				5C6F2CA82B3552A000FE3488 /* Assets.xcassets */,
 				5C6F2CAA2B3552A000FE3488 /* ChartDemo.entitlements */,
+				5C7C31BD2B358E800012AC8C /* Secrets.xcconfig */,
 				5C6F2CAB2B3552A000FE3488 /* Preview Content */,
 			);
 			path = ChartDemo;
@@ -93,6 +105,7 @@
 			children = (
 				5C6F2CB42B355BC700FE3488 /* MonthlyTemp.swift */,
 				5C6F2CC42B356B8400FE3488 /* SalesModel.swift */,
+				5C6F2CCB2B356C7300FE3488 /* WheatherModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,8 +126,17 @@
 		5C6F2CC32B356B1900FE3488 /* TutorialView */ = {
 			isa = PBXGroup;
 			children = (
+				5C6F2CC92B356C3D00FE3488 /* ChartDemoView.swift */,
 			);
 			path = TutorialView;
+			sourceTree = "<group>";
+		};
+		5C6F2CC82B356C1B00FE3488 /* PracticeView */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F2CD02B3586D800FE3488 /* WheatherChartView.swift */,
+			);
+			path = PracticeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +199,7 @@
 			files = (
 				5C6F2CAD2B3552A000FE3488 /* Preview Assets.xcassets in Resources */,
 				5C6F2CA92B3552A000FE3488 /* Assets.xcassets in Resources */,
+				5C7C31BE2B3590670012AC8C /* Secrets.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,9 +214,12 @@
 				5C6F2CBA2B35660100FE3488 /* BasicBarChartView.swift in Sources */,
 				5C6F2CA72B35529E00FE3488 /* ContentView.swift in Sources */,
 				5C6F2CC52B356B8400FE3488 /* SalesModel.swift in Sources */,
+				5C6F2CD12B3586D800FE3488 /* WheatherChartView.swift in Sources */,
 				5C6F2CA52B35529E00FE3488 /* ChartDemoApp.swift in Sources */,
 				5C6F2CBE2B35662200FE3488 /* RectangleAndLineChartView.swift in Sources */,
 				5C6F2CC22B356AE400FE3488 /* StyleBarChartView.swift in Sources */,
+				5C6F2CCC2B356C7300FE3488 /* WheatherModel.swift in Sources */,
+				5C6F2CCA2B356C3D00FE3488 /* ChartDemoView.swift in Sources */,
 				5C6F2CB52B355BC700FE3488 /* MonthlyTemp.swift in Sources */,
 				5C6F2CBC2B35661000FE3488 /* DataAreaChartView.swift in Sources */,
 				5C6F2CB82B3565F400FE3488 /* BasicAreaChartView.swift in Sources */,
@@ -319,6 +345,7 @@
 		};
 		5C6F2CB12B3552A000FE3488 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7C31BD2B358E800012AC8C /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -330,6 +357,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChartDemo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -357,6 +385,7 @@
 		};
 		5C6F2CB22B3552A000FE3488 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7C31BD2B358E800012AC8C /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -368,6 +397,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChartDemo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
