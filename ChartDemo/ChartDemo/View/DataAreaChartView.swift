@@ -18,7 +18,7 @@ struct DataAreaChartView: View {
             ForEach(tempData){ data in
                 AreaMark(
                 x: .value("Month", data.month),
-                y: .value("Temp", data.degress)
+                y: .value("Temp", data.degrees)
                 )
             }
         }

@@ -16,6 +16,9 @@
 		5C6F2CBA2B35660100FE3488 /* BasicBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CB92B35660100FE3488 /* BasicBarChartView.swift */; };
 		5C6F2CBC2B35661000FE3488 /* DataAreaChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CBB2B35661000FE3488 /* DataAreaChartView.swift */; };
 		5C6F2CBE2B35662200FE3488 /* RectangleAndLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CBD2B35662200FE3488 /* RectangleAndLineChartView.swift */; };
+		5C6F2CC02B356AC800FE3488 /* YearLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CBF2B356AC800FE3488 /* YearLineChartView.swift */; };
+		5C6F2CC22B356AE400FE3488 /* StyleBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CC12B356AE400FE3488 /* StyleBarChartView.swift */; };
+		5C6F2CC52B356B8400FE3488 /* SalesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CC42B356B8400FE3488 /* SalesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		5C6F2CB92B35660100FE3488 /* BasicBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicBarChartView.swift; sourceTree = "<group>"; };
 		5C6F2CBB2B35661000FE3488 /* DataAreaChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAreaChartView.swift; sourceTree = "<group>"; };
 		5C6F2CBD2B35662200FE3488 /* RectangleAndLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleAndLineChartView.swift; sourceTree = "<group>"; };
+		5C6F2CBF2B356AC800FE3488 /* YearLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearLineChartView.swift; sourceTree = "<group>"; };
+		5C6F2CC12B356AE400FE3488 /* StyleBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleBarChartView.swift; sourceTree = "<group>"; };
+		5C6F2CC42B356B8400FE3488 /* SalesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 			children = (
 				5C6F2CA42B35529E00FE3488 /* ChartDemoApp.swift */,
 				5C6F2CA62B35529E00FE3488 /* ContentView.swift */,
+				5C6F2CC32B356B1900FE3488 /* TutorialView */,
 				5C6F2CB62B35659F00FE3488 /* View */,
 				5C6F2CB32B355B9800FE3488 /* Model */,
 				5C6F2CA82B3552A000FE3488 /* Assets.xcassets */,
@@ -85,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				5C6F2CB42B355BC700FE3488 /* MonthlyTemp.swift */,
+				5C6F2CC42B356B8400FE3488 /* SalesModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,8 +104,17 @@
 				5C6F2CBD2B35662200FE3488 /* RectangleAndLineChartView.swift */,
 				5C6F2CBB2B35661000FE3488 /* DataAreaChartView.swift */,
 				5C6F2CB92B35660100FE3488 /* BasicBarChartView.swift */,
+				5C6F2CBF2B356AC800FE3488 /* YearLineChartView.swift */,
+				5C6F2CC12B356AE400FE3488 /* StyleBarChartView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5C6F2CC32B356B1900FE3488 /* TutorialView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TutorialView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,10 +187,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6F2CC02B356AC800FE3488 /* YearLineChartView.swift in Sources */,
 				5C6F2CBA2B35660100FE3488 /* BasicBarChartView.swift in Sources */,
 				5C6F2CA72B35529E00FE3488 /* ContentView.swift in Sources */,
+				5C6F2CC52B356B8400FE3488 /* SalesModel.swift in Sources */,
 				5C6F2CA52B35529E00FE3488 /* ChartDemoApp.swift in Sources */,
 				5C6F2CBE2B35662200FE3488 /* RectangleAndLineChartView.swift in Sources */,
+				5C6F2CC22B356AE400FE3488 /* StyleBarChartView.swift in Sources */,
 				5C6F2CB52B355BC700FE3488 /* MonthlyTemp.swift in Sources */,
 				5C6F2CBC2B35661000FE3488 /* DataAreaChartView.swift in Sources */,
 				5C6F2CB82B3565F400FE3488 /* BasicAreaChartView.swift in Sources */,

@@ -18,12 +18,12 @@ struct RectangleAndLineChartView: View {
         Chart(tempData) { data in
             RectangleMark(
                 x: .value("Month", data.month),
-                y: .value("Temp", data.degress)
+                y: .value("Temp", data.degrees)
             )
 
             LineMark(
                 x: .value("Month", data.month),
-                y: .value("Temp", data.degress)
+                y: .value("Temp", data.degrees)
             )
         }
     }
