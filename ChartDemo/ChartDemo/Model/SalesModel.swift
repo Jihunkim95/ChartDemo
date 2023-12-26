@@ -11,6 +11,7 @@ struct SalesInfo: Identifiable {
     var id = UUID()
     var month: String
     var total: Int
+    
 }
 
 var retailSales: [SalesInfo] = [

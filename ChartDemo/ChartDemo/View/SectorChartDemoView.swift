@@ -8,7 +8,7 @@ import Charts
 
 struct SectorChartDemoView: View {
     var body: some View {
-//        OneRankBarChartDemoView()
+        OneRankBarChartDemoView()
         SectorChartView()
     }
 }
@@ -52,6 +52,8 @@ struct SectorChartView: View {
     @State private var selectedSector: String?
     
     var body: some View {
+
+        
         Chart {
             ForEach(retailSales) { sales in
                 // angle 매개변수 : x축 값을 지정하는 대신 해당 값을 매개 angle에 전달
@@ -61,7 +63,7 @@ struct SectorChartView: View {
                 SectorMark(
                     angle: .value("Total", sales.total),
                     innerRadius: .ratio(0.6),
-                    outerRadius: sales.month == "Jan" ? 120 : 100,
+                    outerRadius: selectedSector == sales.month ? 120 : 100,
                     angularInset: 1.0
                 )
                 .foregroundStyle(by: .value("Month", sales.month))
@@ -76,6 +78,7 @@ struct SectorChartView: View {
                 .cornerRadius(5)
                 // 선택하지 않은 섹터에 투명도 처리
                 .opacity(selectedSector == nil ? 1.0 : (selectedSector == sales.month ? 1.0 : 0.5))
+                
             }
         }
         .frame(height: 500)
