@@ -31,7 +31,10 @@ struct ContentView: View {
 //                StyleBarChartView()
 //                ChartDemoView()
 //                WheatherChartView(weatherAPI: weatherAPI)
-                SectorChartDemoView()
+//                SectorChartDemoView()
+                
+                //소비 패턴
+                ConsumPatternView()
             }
 
         }
