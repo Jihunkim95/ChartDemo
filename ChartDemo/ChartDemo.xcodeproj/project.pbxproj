@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2902E82B3A9C46008E37C8 /* SectorChartDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2902E72B3A9C46008E37C8 /* SectorChartDemoView.swift */; };
 		5C6F2CA52B35529E00FE3488 /* ChartDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CA42B35529E00FE3488 /* ChartDemoApp.swift */; };
 		5C6F2CA72B35529E00FE3488 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2CA62B35529E00FE3488 /* ContentView.swift */; };
 		5C6F2CA92B3552A000FE3488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F2CA82B3552A000FE3488 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C2902E72B3A9C46008E37C8 /* SectorChartDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorChartDemoView.swift; sourceTree = "<group>"; };
 		5C6F2CA12B35529E00FE3488 /* ChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6F2CA42B35529E00FE3488 /* ChartDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDemoApp.swift; sourceTree = "<group>"; };
 		5C6F2CA62B35529E00FE3488 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				5C6F2CB92B35660100FE3488 /* BasicBarChartView.swift */,
 				5C6F2CBF2B356AC800FE3488 /* YearLineChartView.swift */,
 				5C6F2CC12B356AE400FE3488 /* StyleBarChartView.swift */,
+				5C2902E72B3A9C46008E37C8 /* SectorChartDemoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				5C6F2CC52B356B8400FE3488 /* SalesModel.swift in Sources */,
 				5C6F2CD12B3586D800FE3488 /* WheatherChartView.swift in Sources */,
 				5C6F2CA52B35529E00FE3488 /* ChartDemoApp.swift in Sources */,
+				5C2902E82B3A9C46008E37C8 /* SectorChartDemoView.swift in Sources */,
 				5C6F2CBE2B35662200FE3488 /* RectangleAndLineChartView.swift in Sources */,
 				5C6F2CC22B356AE400FE3488 /* StyleBarChartView.swift in Sources */,
 				5C6F2CCC2B356C7300FE3488 /* WheatherModel.swift in Sources */,
@@ -281,6 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -336,6 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
