@@ -15,7 +15,7 @@ BarMark(막대) : 막대를 사용하여 데이터를 나타내는 차트 콘텐
 
 import SwiftUI
 import Charts
-@available(iOS 17.0, *)
+
 struct ContentView: View {
     @StateObject var weatherAPI = WeatherAPI.shared
     var body: some View {
@@ -36,12 +36,12 @@ struct ContentView: View {
 
         }
         .padding()
-        .onAppear(){
-            Task {
-                weatherAPI.weatherData(stnIds: 108)
-                weatherAPI.weatherData(stnIds: 102)
-            }
-        }
+//        .onAppear(){
+//            Task {
+//                weatherAPI.weatherData(stnIds: 108)
+//                weatherAPI.weatherData(stnIds: 102)
+//            }
+//        }
         
         
     }
